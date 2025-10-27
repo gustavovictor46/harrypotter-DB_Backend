@@ -3,15 +3,17 @@
   "version": "1.0.0",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "cls && nodemon server.js",
+    "studio": "npx prisma studio"
   },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/gustavovictor46/harrypotter-DB_Backend.git"
   },
   "keywords": [],
-  "author": "",
-  "license": "ISC",
+  "author": "Gustavo Victor",
+  "license": "MIT",
   "bugs": {
     "url": "https://github.com/gustavovictor46/harrypotter-DB_Backend/issues"
   },
